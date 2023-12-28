@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/analystics.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar="">
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/fikret_avatar.jpg"
+              alt="Fikret Durmaz"
+              width="80"
+              class="avatar_img"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Fikret Durmaz">Fikret Durmaz</h1>
+
+            <p class="title">Data Analyst | Data Scientist</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <address>fikretengindurmaz<br />@gmail.com</address>
+                <!-- <a
+                  href="mailto:fikretengindurmaz@gmail.com"
+                  class="contact-link"
+                  >fikretengindurmaz@gmail.com</a> -->
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+17786800050" class="contact-link"
+                  >+1 (778) 680-0050</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Vancouver, British Columbia, Canada</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/fikretdurmaz"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon
+                  name="logo-github"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="logo github"
+                  ><template shadowrootmode="open"
+                    ><div class="icon-inner">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="ionicon s-ion-icon"
+                        viewBox="0 0 512 512"
+                      >
+                        <title>Logo Github</title>
+                        <path
+                          d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 003.8.4c8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 01-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0025.6-6c2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 015-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 01112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 015 .5c12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 004-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z"
+                        ></path>
+                      </svg></div></template
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/fikretdurmaz/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon
+                  name="logo-linkedin"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="logo linkedin"
+                  ><template shadowrootmode="open"
+                    ><div class="icon-inner">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="ionicon s-ion-icon"
+                        viewBox="0 0 512 512"
+                      >
+                        <title>Logo Linkedin</title>
+                        <path
+                          d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32zm-273.3 373.43h-64.18V205.88h64.18zM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43 0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44-17.74 0-28.24 12-32.91 23.69-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44 42.13 0 74 27.77 74 87.64z"
+                        ></path>
+                      </svg></div></template
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm Fikret Durmaz, a data analyst and aspiring data scientist
+              based in Vancouver, Canada. After graduating from Douglas College
+              with a Post-Baccalaureate Diploma in Computer and Information
+              Systems, I've been diving deep into the world of data and
+              technology. My journey has been all about exploring the bits and
+              bytes of data analytics and pushing myself to learn more every
+              day.
+            </p>
+
+            <p>
+              In my career so far, I've gathered a bunch of experience working
+              with data. I've developed a strong expertise in SQL, Python, R,
+              and Java, and have also ventured into mobile app development.
+              Proficient in utilizing tools like Microsoft Power BI, Tableau,
+              and Excel. What really drives me is my passion for personal
+              growth. I took a break from my career to focus on learning all I
+              could about data science. Now, I'm ready to take the leap into
+              this exciting field, bringing all my analytical skills and tech
+              know-how to the table. I'm all about finding smart ways to use
+              data to solve real-world problems, and I can't wait to see where
+              this journey takes me next.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/modified_analytics_svg.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                  <p class="service-item-text">
+                    Manipulating complex datasets into clear, actionable
+                    insights with precision and expertise.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/modified_machine_learning_svg.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                  <p class="service-item-text">
+                    Developing intelligent, scalable AI solutions through
+                    advanced machine learning algorithms.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile App Development</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    Building visually appealing, functional, and responsive
+                    websites.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container="">
+            <div class="overlay" data-overlay=""></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn="">
+                <ion-icon
+                  name="close-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="close outline"
+                  ><template shadowrootmode="open"
+                    ><div class="icon-inner">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="ionicon s-ion-icon"
+                        viewBox="0 0 512 512"
+                      >
+                        <title>Close</title>
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M368 368L144 144M368 144L144 368"
+                          class="ionicon-fill-none ionicon-stroke-width"
+                        ></path>
+                      </svg></div></template
+                ></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/fikret_avatar.jpg"
+                    alt="test1"
+                    width="80"
+                    data-modal-img=""
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title="">test</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text="">
+                  <p>test1</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  DOUGLAS COLLEGE, New Westminster, BC
+                </h4>
+
+                <span>September 2021 – December 2023</span>
+
+                <p class="timeline-text">
+                  Computer And Information Systems (Post-Baccalaureate Diploma)
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  OKAN UNIVERSITY, Istanbul, TURKEY
+                </h4>
+
+                <span>September 2016 – September 2018</span>
+
+                <p class="timeline-text">Master of Business Administration</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  ISTANBUL UNIVERSITY, Istanbul, TURKEY
+                </h4>
+
+                <span>September 2009 – July 2015</span>
+
+                <p class="timeline-text">
+                  Bachelor of Science, Geological Engineering
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">CUSTOMER SERVICE ANALYST</h4>
+
+                <span>December 2019 - August 2021</span>
+
+                <p class="timeline-text">
+                  ● Prepared the call center’s schedule by analyzing historical
+                  data, identifying peak periods, and building up a reserve of
+                  agents. As a result, the service level of the call center was
+                  successfully maintained above 80%. <br />● Provided accurate
+                  and timely performance reports to stakeholders and created
+                  comprehensive monthly scorecard reports for regional managers.
+                  Implemented ETL processes for data integration and storage in
+                  our local database. <br />● Expertly forecasted and analyzed
+                  call volume trends to align accurately with operational
+                  requirements, maintaining a high forecasting accuracy with a
+                  variance between projected and actual data consistently within
+                  a 5% margin. <br />● Managed daily staffing. Prepared
+                  shrinkage reports to determine the number of Full-Time
+                  Employees (FTE) required to handle forecasted call volumes.
+                  This approach resulted in an efficient reduction, achieving a
+                  decrease of 3 FTEs. <br />● Participated in the integration of
+                  cutting-edge Call Centre technologies, including a digital
+                  assistant and WhatsApp support, leading to a 15% reduction in
+                  incoming calls and enhanced service efficiency.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">CS Backline Advisor</h4>
+
+                <span>January 2016 - December 2019</span>
+
+                <p class="timeline-text">
+                  ● Efficiently managed and resolved customer trace requests,
+                  coordinating with global branches to ensure customer
+                  satisfaction. <br />● Maintained ongoing communication with
+                  customers, providing daily updates and information to enhance
+                  service experience during active trace processes.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="95">95%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Microsoft Power BI</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tableau</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">R</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Microsoft Excel</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java (Springboot, Android App Development)</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">NoSQL (MongoDb)</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C# , C++</h5>
+                  <data value="65">65%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--trainings and certificates-->
+          <br />
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon
+                  name="book-outline"
+                  role="img"
+                  class="md hydrated"
+                  aria-label="book outline"
+                  ><template shadowrootmode="open"
+                    ><div class="icon-inner">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="ionicon s-ion-icon"
+                        viewBox="0 0 512 512"
+                      >
+                        <path
+                          d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0116 16v288a16 16 0 01-16 16c-128 0-177.45 25.81-208 64-30.37-38-80-64-208-64-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0116-16c131.57.59 192 32.84 208 96zM256 160v288"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="ionicon-fill-none ionicon-stroke-width"
+                        ></path>
+                      </svg></div></template
+                ></ion-icon>
+              </div>
+
+              <h3 class="h3">Licenses & Certifications</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Intermediate R</h4>
+                <span>DataCamp - Issued Jun 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  String Manipulation with stringr in R
+                </h4>
+                <span>DataCamp - Issued Jun 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Building Recommendation Engines in Python
+                </h4>
+                <span>DataCamp - Issued Apr 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Fraud Detection in Python
+                </h4>
+                <span>DataCamp - Issued Apr 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Sentiment Analysis in Python
+                </h4>
+                <span>DataCamp - Issued Apr 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Cluster Analysis in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Dimensionality Reduction in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Ensemble Methods in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Extreme Gradient Boosting with XGBoost
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Feature Engineering for Machine Learning in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Hyperparameter Tuning in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Linear Classifiers in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Machine Learning for Marketing in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Machine Learning for Time Series Data in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Machine Learning with Tree-Based Models in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Machine Learning with scikit-learn
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Model Validation in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Preprocessing for Machine Learning in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Unsupervised Learning in Python
+                </h4>
+                <span>DataCamp - Issued Mar 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Introduction to Data Visualization with Matplotlib
+                </h4>
+                <span>DataCamp - Issued Feb 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Supervised Learning with scikit-learn
+                </h4>
+                <span>DataCamp - Issued Feb 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Visualizing Time Series Data in Python
+                </h4>
+                <span>DataCamp - Issued Feb 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Cleaning Data in Python</h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Data Manipulation with pandas
+                </h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Joining Data with pandas</h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Manipulating Time Series Data in Python
+                </h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Python Data Science Toolbox (Part 1)
+                </h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Python Data Science Toolbox (Part 2)
+                </h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Statistical Thinking in Python (Part 1)
+                </h4>
+                <span>DataCamp - Issued Jan 2023</span>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Machine Learning</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Data Visualization</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Database</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Mobile App</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Machine Learning</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Data Visualization</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Database</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Mobile App</button>
+                </li>
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning, mobile app"
+              >
+                <a href="https://youtu.be/BQTpTX2fQvk" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/stockwiselogo.jpg"
+                      alt="stockwise"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">StockWise</h3>
+
+                  <p class="project-category">
+                    <b>Machine Learning | Mobile App</b>
+                  </p>
+                  <p class="project-category">
+                    This is a project where I aimed to merge my Machine Learning
+                    and Mobile App Development skills to create a cutting-edge
+                    stock price prediction and sentiment analysis mobile app.
+                  </p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/Python-Online-Course-Prediction"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/python-online-course.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Python - Linear Regression Prediction
+                  </h3>
+
+                  <p class="project-category"><b>Machine Learning</b></p>
+                  <p class="project-category">
+                    This project report presents the analysis and linear
+                    regression modeling and prediction of an online course
+                    dataset. The dataset contains information about online
+                    courses, including their names, categories, instructor
+                    ratings, reviews, student enrollment, and other relevant
+                    attributes.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/Python-Machine-Learning-Project-Predictive-Maintenance-For-Metro-Vehicles"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/cluster.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Predictive Maintenance For Metro Vehicles
+                  </h3>
+
+                  <p class="project-category"><b>Machine Learning</b></p>
+                  <p class="project-category">
+                    This project focuses mainly on the critical parts of public
+                    transport, especially Metro vehicles, and aims to points the
+                    challenges of detecting faults during regular operation.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="machine learning"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/R-Language-Machine-Learning-Project-Predictive-Maintenance-For-Metro-Vehicles"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/rlanguage.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Predictive Maintenance For Metro Vehicles (Using R language)
+                  </h3>
+
+                  <p class="project-category"><b>Machine Learning</b></p>
+                  <p class="project-category">
+                    This project focuses mainly on the critical parts of public
+                    transport, especially Metro vehicles, and aims to points the
+                    challenges of detecting faults during regular operation.
+                    Prompt and efficient fault detection can prevent
+                    interruptions and minimize damage.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="database"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/SQL_Company_project"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/1.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Company Database Project</h3>
+
+                  <p class="project-category"><b>Database</b></p>
+                  <p class="project-category">
+                    This project focuses on the development and management of a
+                    Company database, encompassing the creation of the database
+                    structure with tables for stores and employees, the
+                    insertion of relevant data, and the execution of SQL queries
+                    for data retrieval.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="database"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/SQL_GardenGlory_project"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/2.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SQL GardenGlory Project</h3>
+
+                  <p class="project-category"><b>Database</b></p>
+                  <p class="project-category">
+                    The project includes scripts for establishing the database
+                    structure, populating it with sample data about owners and
+                    properties, and executing nuanced SQL queries for specific
+                    data retrieval, like extracting employee details based on
+                    experience or property location.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="database"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/SQL_WP_project"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/3.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SQL WP Project</h3>
+
+                  <p class="project-category"><b>Database</b></p>
+                  <p class="project-category">
+                    This project involves creating and managing a database
+                    called "WP", focusing on organizational departments and
+                    employees. It includes the initial creation of the database,
+                    defining structures for departments and employees, and
+                    populating these tables with relevant data.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="database"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/SQL_University_project"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/4.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SQL University Project</h3>
+
+                  <p class="project-category"><b>Database</b></p>
+                  <p class="project-category">
+                    The "University" database project is designed to
+                    comprehensively manage and analyze educational data. It
+                    involves creating a robust database structure to handle
+                    details about classrooms, departments, courses, and
+                    participants within a university setting.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/Tableau-Sales-Data"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/tableau-sales-data.jpg"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tableau - Sales Data</h3>
+
+                  <p class="project-category"><b>Data Visualization</b></p>
+                  <p class="project-category">
+                    This project contains comprehensive visualizations and
+                    analyses of sales data using Tableau, offering insights into
+                    trends, performance metrics, and sales data to drive
+                    informed business decisions.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/Tableau-BC-Education-Data"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/tableau-bc-education.JPG"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tableau - BC Education Data</h3>
+
+                  <p class="project-category"><b>Data Visualization</b></p>
+                  <p class="project-category">
+                    This project's purpose is to create effective visualizations
+                    to provide insight to the pattern of international students
+                    and international tuition across public post-secondary
+                    institutions in British Columbia (BC).
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/Tableau-Video-Games-Data"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/tableau-video-games.JPG"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tableau - Video Games Data</h3>
+
+                  <p class="project-category"><b>Data Visualization</b></p>
+                  <p class="project-category">
+                    This project's purpose is to create effective visualizations
+                    to provide insight to the Video Games sales data and
+                    Developer Company rankings.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/Tableau-Spotify-Top50-Music"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/tableau-spotify.JPG"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Tableau - Spotify Top50 Music</h3>
+
+                  <p class="project-category"><b>Data Visualization</b></p>
+                  <p class="project-category">
+                    This project involves the analysis and visualization of
+                    music data, specifically focusing on popular tracks and
+                    their genres. It includes datasets detailing track
+                    attributes like danceability, energy, and artist popularity,
+                    as well as information on various music genres.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="data visualization"
+              >
+                <a
+                  href="https://github.com/fikretdurmaz/PowerBI-Inventory-Management"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/powerbi.JPG"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PowerBI - Inventory Management</h3>
+
+                  <p class="project-category"><b>Data Visualization</b></p>
+                  <p class="project-category">
+                    This project is centered around a comprehensive analysis of
+                    various aspects of a business operation, as evidenced by the
+                    diverse datasets provided. It encompasses a detailed
+                    examination of inventory management, customer transactions,
+                    and order processing.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mobile app"
+              >
+                <a href="https://youtu.be/gayWuikRdSM" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/fitFaster.jpg"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fit Faster</h3>
+
+                  <p class="project-category"><b>Mobile App</b></p>
+                  <p class="project-category">
+                    “Fit Faster” is a Android Mobile Fitness App that aims to
+                    make fitness easier for its users.
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/Andr3aBlanco/boardify"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Boardify.JPG"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Boardify</h3>
+
+                  <p class="project-category"><b>Web Development</b></p>
+                  <p class="project-category">
+                    The Boardify App is a Software Engineering project developed
+                    by four enthusiasts in software development. It's designed
+                    to address challenges faced by board game enthusiasts in
+                    finding players and organizing tournaments.
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
